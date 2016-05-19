@@ -1,5 +1,13 @@
+body {
+  background-color: tan;
+}
+
 #initially-showing {
   display: none;
+}
+
+h1 {
+  text-align: center;
 }
 
 .clickable {
@@ -9,4 +17,14 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.light-background {
+  background-color: white;
+  color: black;
+}
+
+.dark-background {
+  background-color: black;
+  color: white;
 }

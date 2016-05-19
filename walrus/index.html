@@ -10,14 +10,29 @@
   <body>
     <div class="container">
       <h1>Peek-a-boo</h1>
-      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+        </div>
 
-      <div id="initially-hidden">
-        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+        <div class="col-md-6">
+          <div id="initially-hidden">
+            <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+          </div>
+          <div id="initially-showing">
+            <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
+          <img src="img/walrus.jpg">
+        </div>
       </div>
-      <div id="initially-showing">
-        <p>What a cute walrus! <span class="clickable">Click here</span> to hide her again.</p>
-        <img src="img/walrus.jpg">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="buttons">
+            <p>Click a button to choose how dark/light you want the page to be:</p>
+            <button class="btn btn-success" id="light">Light background</button>
+            <button class="btn btn-warning" id="dark">Dark Background</button>
+            <button class="btn btn-danger" id="original">Tan Background</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
